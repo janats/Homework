@@ -1,0 +1,92 @@
+body{
+	background-color: #665464;
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+}
+.navbar-brand{
+	padding-top: 27px;
+}
+.navbar-default {
+    background-color: #665464;
+    border: none;
+}
+.navbar-default ul{
+	padding-top: 25px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+}
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover{
+    color:white;
+    background-color:#91778e;
+    border-radius: 5px;
+}
+.card{
+	padding-top:45px;
+	width: 260px;
+	height: 335px;
+	background-color: #4d3f4b;
+	margin-bottom:100px;
+	text-align: center;
+}
+.card p{
+	margin-top:28px;
+	text-transform: uppercase;
+	color:#c7b6c5;
+	font-size: 25px;
+}
+.card span{
+	color: #8fa968;
+	font-size: 14px;
+}
+.social .iconso{
+	padding:  4px 8px;
+	margin-left: 10px;
+	border: 1px solid #a0849d;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: #a0849d;
+}
+.team .icon-container{
+	background-color: white;
+	color:#a1859e;
+	border:3px solid #a1859e;
+	border-radius: 100%;
+	font-size: 90px;
+	padding: 0 20px; 
+	display: inline-block;
+}
+.card:hover .icon-container {
+	color:#df5c64;
+	border: 3px solid #df5c64;
+}
+.card:hover p{
+	color:white;
+}
+.card:hover span{
+	color:#df5c64;
+}
+.card:hover .facebook{
+	background-color:#4f689e;
+	border:1px solid #4f689e;
+}
+
+.card:hover .twitter{
+	background-color: #74c7d5;
+	border:1px solid #74c7d5;
+}
+
+.card:hover .google{
+	background-color: #df5c64;
+	border:1px solid #df5c64;
+}
+
+.card:hover .linked{
+	background-color: #3e61af;
+	border:1px solid #3e61af;
+}
